@@ -1,0 +1,17 @@
+flask
+flask-sqlalchemy
+gunicorn
+werkzeug
+
+web: gunicorn app:app
+
+python-3.12.3
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+eduresourcehub.db
